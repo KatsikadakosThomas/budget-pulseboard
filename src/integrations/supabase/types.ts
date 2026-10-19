@@ -151,6 +151,7 @@ export type Database = {
           industry: string | null
           name: string
           onboarding_completed: boolean
+          slug: string | null
           updated_at: string
         }
         Insert: {
@@ -160,6 +161,7 @@ export type Database = {
           industry?: string | null
           name: string
           onboarding_completed?: boolean
+          slug?: string | null
           updated_at?: string
         }
         Update: {
@@ -169,6 +171,7 @@ export type Database = {
           industry?: string | null
           name?: string
           onboarding_completed?: boolean
+          slug?: string | null
           updated_at?: string
         }
         Relationships: []
