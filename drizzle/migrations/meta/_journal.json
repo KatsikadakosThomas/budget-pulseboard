@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792400463755,
+      "tag": "0000_repair_remix_slug_and_signup_trigger",
+      "breakpoints": true
+    }
+  ]
+}

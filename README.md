@@ -109,7 +109,7 @@ If you clicked "Remix" on this project, here's what actually happens and what yo
 
 ### What carries over
 - All source code (routes, components, hooks, styles).
-- Migration files under `supabase/migrations/` — these re-run against the new backend and recreate the schema, RLS policies, functions, and triggers.
+- Migration files under `supabase/migrations/` — in practice, remixes so far have NOT carried these over: the new backend gets the schema, but not the migration files. Verify the live schema against the app (see "First steps after remixing") and reapply gaps as new migrations.
 - The Lovable-managed Google OAuth provider works in the remixed project's preview URL out of the box.
 
 ### What does NOT carry over
